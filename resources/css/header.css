@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /*Facilita dimensionamento dos elementos
+    dizendo que a borda do elemento pertence ao
+    tamanho total deste*/
+    box-sizing: border-box;
+}
+
+html{
+    background-color: var(--White);
+    color: var(--Black);
+    font-family: var(--font-Oswald);
+    font-weight: 300;
+    /*Otimiza as fontes para leitura*/
+    text-rendering: optimizeLegibility;
+
+
+}
+.logo{
+    color:var(--Orange);
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/Gym-structure-1080x675.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1{
+    margin-top: 0;
+    margin-left: 0;
+    color:var(--White);
+    font-size: 240%;
+    font-family:var(--font-Quicksand);
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.hero-text-box{
+    position: absolute;
+    margin-left: 5em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+        font-family: var(--font-Quicksand);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: var(--White);
+        transition: backgraund-color 0.2s, border 0.2s; ;
+
+}
+
+.btn-full:link,
+.btn-full:visited  {
+    background-color: var(--Orange);
+    border: 1px solid var(--Orange);
+    color: var(--White);
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited  {
+    border: 1px solid var(--Orange);
+    color: var(--Orange);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--Low-Orange);
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid var(--Low-Orange);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid var(--Low-Orange);
+    color: var(--White);
+}
