@@ -1,0 +1,80 @@
+.parte2{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/section2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+ion-icon {
+    font-size: 350%; 
+    display: block;
+    color: var(--Orange); 
+    margin-bottom: 10px; 
+}
+section{
+    padding: 80px 0;
+}
+
+h1 ,h2 ,h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: var(--font-Quicksand);
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--White);
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: var(--Orange);
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.long-copy {
+    line-height:145%;
+    width: 70%; 
+    margin-left: 15%; 
+}
+
+.box{
+    padding: 2em;
+    margin-left: 2rem;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}  
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+.section-features ion-icons{
+    font-size: 2.5rem;
+    color: var(--Orange);
+    text-align: center;
+}

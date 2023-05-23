@@ -18,13 +18,11 @@ html{
 
 
 }
-.logo{
-    color:var(--Orange);
-}
+
 
 header{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/Gym-structure-1080x675.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/header.png);
     background-size: cover;
     background-position: center;
 }
