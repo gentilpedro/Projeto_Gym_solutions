@@ -43,9 +43,8 @@ h1{
 .hero-text-box{
     position: absolute;
     margin-left: 5em;
-    width: 100%;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform:  translate(-50%, -50%);
 }
 .btn:link,
@@ -89,4 +88,49 @@ h1{
 .btn-ghost:active {
     border: 1px solid var(--Low-Orange);
     color: var(--White);
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    float: left;
+    margin: 20px ; 
+}
+
+.main-nav {
+    float: right;
+    list-style: none; 
+    margin-top: 55px;
+    margin-right: 2rem;
+}
+
+.main-nav li {
+    display: inline-block;
+margin-left: 2.5rem;   
+}
+
+.main-nav li a {
+    padding: 8px ;
+    color: var(--White);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: var(--White);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid var(--Low-Orange);
 }
