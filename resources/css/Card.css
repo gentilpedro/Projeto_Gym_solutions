@@ -6,9 +6,19 @@
 }
 
 .cartoes h2{
-    margin-top:20px ;
+    margin-top:15px ;
+    font-size: 20px;
+    
 }
+.cartoes .flip-card-front p{
+  margin: 20px 20px;
+  text-align: justify  ;
 
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat();
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -54,3 +64,23 @@
     rgb(252, 69, 79, 0.896796218487395) 89%);
     transform: rotateY(180deg);
   }
+
+  .flip-card-front .img__front{
+    margin-top: 70px;    
+    height: 1.5rem;
+    width: auto;
+    }
+
+  .flip-card-back .img__back{
+    margin-top: 100px;    
+    height: 1.5rem;
+    width: auto;
+  }
+
+  @media screen and (max-width: 820px){
+    .span-1-of-4{
+      grid: 2;
+    }
+  }
+    
+  
