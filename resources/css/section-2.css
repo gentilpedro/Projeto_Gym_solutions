@@ -1,6 +1,6 @@
 .article2{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/section2.webp);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/section2.webp);
     background-size: cover;
     background-position: center;
 }
@@ -77,4 +77,58 @@ h2:after {
     font-size: 2.5rem;
     color: var(--Orange);
     text-align: center;
+}
+
+.article2 .card {
+    background-color: var(--White);
+    width: 1500px;
+    height: 680px;
+    perspective: 1000px; 
+    border-radius: 8px;
+  }
+  
+.section-steps {
+    width: 100%;
+    height: auto;
+}
+
+.steps-box:first-child {
+    text-align: right; 
+    padding-right: 3%;
+}
+.steps-box:last-child {
+    padding-left: 3%; 
+}
+
+.app-screen {
+    width: 40%; 
+    height: auto;
+    margin-top: 0.3rem;
+}
+
+.step {
+    margin-bottom: 50px;
+}
+
+.step div {
+    color: var(--Orange); 
+    border: 2px solid var(--Orange); 
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+}
+.btn-app img {
+    height:50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.step:last-of-type {
+    margin-bottom: 80px;
 }
