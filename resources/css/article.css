@@ -1,27 +1,30 @@
-.article2{
+.article2 {
     height: 100vh;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/section2.webp);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(/resources/img/section2.webp);
     background-size: cover;
     background-position: center;
 }
 
 ion-icon {
-    font-size: 350%; 
+    font-size: 350%;
     display: block;
-    color: var(--Orange); 
-    margin-bottom: 10px; 
+    color: var(--Orange);
+    margin-bottom: 10px;
 }
-article{
+
+article {
     padding: 80px 0;
 }
 
-h1 ,h2 ,h3{
+h1,
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
     font-family: var(--font-Quicksand);
 }
 
-h1{
+h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--White);
@@ -30,14 +33,13 @@ h1{
     letter-spacing: px;
 }
 
-h2{
+h2 {
     font-size: 180%;
     word-spacing: 4px;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-
 
 h3 {
     font-size: 110%;
@@ -48,32 +50,33 @@ h2:after {
     display: block;
     height: 2px;
     background-color: var(--Orange);
-    content: " "; 
-    width: 100px; 
-    margin: 0 auto; 
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 .long-copy {
-    line-height:145%;
-    width: 70%; 
-    margin-left: 15%; 
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
 }
 
-.box{
+.box {
     padding: 2em;
     margin-left: 2rem;
 }
+
 .box p {
     font-size: 90%;
     line-height: 145%;
-}  
+}
 
 .article-features .long-copy {
     margin-bottom: 30px;
 }
 
-.article-features ion-icons{
+.article-features ion-icons {
     font-size: 2.5rem;
     color: var(--Orange);
     text-align: center;
@@ -83,27 +86,27 @@ h2:after {
     background-color: var(--White);
     width: 1000px;
     height: 680px;
-    perspective: 1000px; 
+    perspective: 1000px;
     border-radius: 8px;
     margin-left: 10%;
+}
 
-  }
-  
 .section-steps {
     width: 100%;
     height: auto;
 }
 
 .steps-box:first-child {
-    text-align: right; 
+    text-align: right;
     padding-right: 3%;
 }
+
 .steps-box:last-child {
-    padding-left: 3%; 
+    padding-left: 3%;
 }
 
 .app-screen {
-    width: 60%; 
+    width: 60%;
     height: auto;
 }
 
@@ -113,8 +116,8 @@ h2:after {
 }
 
 .step div {
-    color: var(--Orange); 
-    border: 2px solid var(--Orange); 
+    color: var(--Orange);
+    border: 2px solid var(--Orange);
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -124,12 +127,57 @@ h2:after {
     font-size: 150%;
     margin-right: 30px;
 }
+
 .btn-app img {
-    height:50px;
+    height: 50px;
     width: auto;
     margin-right: 10px;
 }
 
 .step:last-of-type {
     margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .article2 .card {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .steps-box {
+        text-align: center;
+        padding: 0;
+    }
+
+    .app-screen {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .step {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 2048px) {
+    .article2 .card {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .steps-box {
+        text-align: center;
+        padding: 0;
+    }
+
+    .app-screen {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .step {
+        margin-right: 0;
+    }
 }

@@ -1,7 +1,7 @@
-footer{
+footer {
     height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), var(--Low-Grey)), url(/resources/img/Gym-structure-1080x675.png);
-
     background-size: cover;
     background-position: center;
 }
+
