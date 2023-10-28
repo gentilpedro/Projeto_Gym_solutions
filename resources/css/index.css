@@ -6,6 +6,8 @@
 @import url(Card.css);
 @import url(img/pics.css);
 @import url(footer.css);
+@import url(cadCliente.css);
+@import url(logCliente.css);
 /*Imports das bibliotecas e reset do css*/
 
 /*Fontes*/
@@ -18,6 +20,7 @@
     --Orange:#e67e22;
     --Low-Orange: #cf6d17;
     --Grey:grey;
+    --LowGrey:#4c4c4c;
     --Black:black;
     --font-Oswald:Oswald;
     --font-Quicksand:Quicksand;
