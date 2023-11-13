@@ -1,7 +1,7 @@
 ion-icon {
     font-size: 350%;
     display: block;
-    color: var(--Orange);
+    color: var(--Red);
     margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: var(--Orange);
+    background-color: var(--Red);
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -71,7 +71,7 @@ h2:after {
 
 .section-features ion-icons {
     font-size: 2.5rem;
-    color: var(--Orange);
+    color: var(--Red);
     text-align: center;
 }
 

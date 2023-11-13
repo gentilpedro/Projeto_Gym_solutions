@@ -27,7 +27,7 @@ section{
 
     font-family: 'open_sansregular';
     font-size: 2.3em;
-    color: var(--Orange);
+    color: var(--Red);
     border-bottom: 1px #f0eded solid;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -64,7 +64,7 @@ section{
     padding: 5px 30px;
     border: none;
     outline: none;
-    background-color: var(--Orange);
+    background-color: var(--Red);
     color: #fff;
     text-shadow: 0 0 5px rgb(0, 0, 0);
     font-family: inherit;
@@ -135,7 +135,7 @@ section{
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: var(--Orange);
+    background-color: var(--Red);
     visibility: hidden;
 
 }
@@ -159,7 +159,7 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--Orange);
+    background-color: var(--Red);
     visibility: hidden;
 
 }
@@ -172,7 +172,7 @@ section{
 
 .form_new_input:checked~.radio_label,
 .form_new_input:checked~.check_label {
-    color: var(--Orange);
+    color: var(--Red);
 }
 
 

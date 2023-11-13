@@ -32,6 +32,7 @@ h1 {
 }
 
 
+
 .hero-text-box {
     position: absolute;
     margin-left: 5em;
@@ -54,31 +55,31 @@ h1 {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: var(--Orange);
-    border: 1px solid var(--Orange);
+    background-color: var(--Red);
+    border: 1px solid var(--Red);
     color: var(--White);
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid var(--Orange);
-    color: var(--Orange);
+    border: 1px solid var(--Red);
+    color: var(--Red);
 }
 
 .btn:hover,
 .btn:active {
-    background-color: var(--Low-Orange);
+    background-color: var(--Low-Red);
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid var(--Low-Orange);
+    border: 1px solid var(--Low-Red);
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid var(--Low-Orange);
+    border: 1px solid var(--Low-Red);
     color: var(--White);
 }
 
@@ -126,7 +127,7 @@ h1 {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid var(--Low-Orange);
+    border-bottom: 2px solid var(--Low-Red);
 }
 
 /* Responsivo em telas de 800px a 1024px */
@@ -171,7 +172,7 @@ h1 {
     }
     
     .hamburger-menu.active span {
-        background-color: var(--Low-Orange);
+        background-color: var(--Low-Red);
     }
     
     .menu-open .main-nav {

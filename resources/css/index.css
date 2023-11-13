@@ -3,7 +3,7 @@
 @import url(header.css);
 @import url(section.css);
 @import url(article.css);
-@import url(Card.css);
+/* @import url(Card.css); */
 @import url(img/pics.css);
 @import url(footer.css);
 @import url(cadCliente.css);
@@ -17,8 +17,8 @@
 
 :root{
     --White: #fff;
-    --Orange:#e67e22;
-    --Low-Orange: #cf6d17;
+    --Red:#e62222c5;
+    --Low-Red: #c23535;
     --Grey:grey;
     --LowGrey:#4c4c4c;
     --Black:black;
