@@ -17,9 +17,10 @@
 
 :root{
     --White: #fff;
-    --Red:#e62222c5;
-    --Low-Red: #c23535;
-    --Grey:grey;
+    --Cream-White: #f2f2f2;
+    --Red:#e6222287;
+    --Low-Red: #ff0000;
+    --Grey:rgba(128, 128, 128, 0.46);
     --LowGrey:#4c4c4c;
     --Black:black;
     --font-Oswald:Oswald;

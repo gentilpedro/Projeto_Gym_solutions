@@ -12,7 +12,6 @@
     display: inherit;
     background-color: #fff;
     border-radius: 4px;
-    box-shadow: 1px 0px 3px 0px #cbcbcb;
 
 }
 
@@ -23,7 +22,7 @@
     font-size: 1.5em;
     border-bottom: 1px #e9e9e9 solid;
     padding: 0.5em;
-    background-color: var(--Red);
+    background-color: var(--Low-Red);
     color: var(--White);
 }
 
@@ -45,7 +44,6 @@
     border-left: 1px transparent solid;
     border-bottom: 1px #eaeaea solid;
     border-right: 1px transparent solid;
-    color: #414141;
     font-family: 'open_sansregular';
     font-size: 0.9em;
     outline: none;
@@ -57,9 +55,9 @@
 
     border-top: 1px transparent solid;
     border-left: 1px transparent solid;
-    border-bottom: 1px var(--Red) solid;
+    border-bottom: 1px var(--Low-Red) solid;
     border-right: 1px transparent solid;
-    color:var(--Red) ;
+    color:var(--Low-Red) ;
 }
 
 .login .btn {
@@ -69,7 +67,7 @@
     padding: 0.4em 1.3em;
     font-family: 'open_sansregular';
     font-size: 1em;
-    background-color: var(--Red) ;
+    background-color: var(--Low-Red) ;
     color: #fff;
     border: 0;
     border-radius: 4px;
@@ -102,7 +100,7 @@
     text-decoration: none;
     font-size: 0.89em;
     font-family: 'open_sansregular';
-    color: #868686;
+    color: var(--Red);
     margin-right: 10px;
     border-right: 1px #d9d9d9 solid;
     padding-right: 10px;
@@ -118,7 +116,7 @@
 }
 
 .login .linksForm a:hover {
-    color: #ffa700;
+    color: var(--Low-Red);
 }
 
 /*Responsivo*/
