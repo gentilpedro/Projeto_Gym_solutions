@@ -7,6 +7,10 @@ ion-icon {
     margin-left: 20px;
 }
 
+.icon {
+    position: relative;
+    margin-left: 90px;
+}
 section {
     padding: 80px 0;
 }

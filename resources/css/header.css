@@ -31,6 +31,19 @@ h1 {
     font-weight: 300;
 }
 
+.link {
+    text-decoration: none;
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    border-left: 2px;
+}
+
+.link:hover {
+    padding-left: 30px;
+    border-left: 2px solid var(--Low-Red);
+    color: blueviolet;
+    transition: .4s;
+}
 
 
 .hero-text-box {
