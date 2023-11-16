@@ -5,7 +5,7 @@ section{
 
 
 .headerCad {
-    height: 150vh;
+    height: 180vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/header.png);
     background-size: cover;
     background-position: center;
@@ -224,4 +224,14 @@ h1{
     text-decoration: none;
     margin-top: 60px;
     float: right;
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){
+    .headerCad {
+        height: 200vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(/resources/img/header.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    
 }
