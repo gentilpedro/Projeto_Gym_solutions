@@ -91,6 +91,7 @@ h2:after {
     perspective: 1000px;
     border-radius: 8px;
     margin-left: 10%;
+    padding: 2rem;
 }
 
 .steps-box:first-child {

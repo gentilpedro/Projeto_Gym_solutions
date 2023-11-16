@@ -5,6 +5,8 @@
 }
 
 html {
+    scroll-behavior: smooth;
+
     background-color: var(--White);
     color: var(--Black);
     font-family: var(--font-Oswald);
