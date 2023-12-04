@@ -148,7 +148,7 @@ h1 {
 /* Responsivo em telas de 800px a 1024px */
 @media screen and (min-width: 800px) and (max-width: 1024px) {
     .hero-text-box {
-        margin-left: 2em;
+        margin-left: 0.5em;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;

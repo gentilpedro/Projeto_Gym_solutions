@@ -29,34 +29,56 @@
       <section class="boxLogin container">
         <div class="content">
 
-          <form class="login" method="post" name="login">
+          <form class="login" action="index.php" method="post" name="CadAluno" >
 
             <h1><i class="icons icon-key-1"></i> Login</h1>
 
             <div class="padding">
+              <label>
+                <input type="text" class="campos" placeholder="Nome" name="nome>
+              </label>mail
 
               <label>
-                <input type="text" class="campos" placeholder="E-mail" name="email">
+                <input type="email" class="campos" placeholder="E-mail" name="email">
               </label>
 
               <label>
-                <input type="password" class="campos" placeholder="Digite a sua Senha" name="senha">
+                <input type="cpf" class="campos" placeholder="Cpf" name="cpf">
               </label>
 
               <input type="submit" class="btn fade_8S" name="login" value="Entrar">
-
             </div>
-            <div class="linksForm">
-              <a href="RecuperaSenha.html" class="fade_4S recuperaSenha" title="Resgatar Senha"><i
-                  class="icon icon-forward-1"></i> Resgatar Senha</a>
-              <a href="CadCliente.html" class="fade_4S cadastroLink" title="Cadastrar-se"><i
-                  class="icon icon-user-add"></i> Cadastro</a>
-            </div>
+            
           </form>
         </div>
       </section>
     </section>
   </header>
+
+  <script>
+    function enviarEmail() {
+      // Obter os dados do formulário
+      const nome = document.querySelector("input[name='nome']").value;
+      const email = document.querySelector("input[name='email']").value;
+      const cpf = document.querySelector("input[name='cpf']").value;
+
+      // Enviar o e-mail
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", "enviar-email.php", true);
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(JSON.stringify({
+        nome,
+        email,
+        cpf
+      }));
+
+      // Exibir uma mensagem de sucesso
+      alert("E-mail enviado com sucesso!");
+    }
+
+    // Executar o evento ao clicar no botão
+    document.querySelector("input[type='submit']").addEventListener("click", enviarEmail);
+  </script>
 </body>
 
 </html>
