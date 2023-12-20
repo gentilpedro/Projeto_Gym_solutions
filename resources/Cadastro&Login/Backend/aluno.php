@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $assunto = "Cadastro";
   $corpo = "Olá, $nome,
 
-Seu cadastro como personal foi realizado com sucesso.
+Seu cadastro como aluno foi realizado com sucesso.
 
 Seu login é:
 Login $cpf
@@ -47,6 +47,9 @@ Equipe Calendar Training";
 
   // Retornar uma mensagem de sucesso
   echo "<script>alert('E-mail enviado com sucesso!');</script>";
+  
+  //chamar a pagina hmtl
+  header('Location: index.html');
 
 }
 
